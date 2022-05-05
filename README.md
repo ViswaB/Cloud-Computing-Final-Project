@@ -36,12 +36,13 @@ the service itself.
 
 1. Cloud Functions (API environment)
 2. Pub/Sub (function organization and concurrency)
-3. Cloud Storage (data storage)
-4. BigQuery (SQL-like storage)
-5. Google Analytics 4 (GTAG powered user analytics tool, dumps to BigQuery)
-6. Google OAuth 2.0 (used for assigning users)
-6. yt-dlp (a fork of youtube-dl with better performance)
-7. ffmpeg (used as part of youtube-dl, used for combining and converting media files, could be
+3. Firestore
+4. Cloud Storage (data storage)
+5. BigQuery (SQL-like storage)
+6. Google Analytics 4 (GTAG powered user analytics tool, dumps to BigQuery)
+7. Google OAuth 2.0 (used for assigning users)
+8. yt-dlp (a fork of youtube-dl with better performance)
+9. ffmpeg (used as part of youtube-dl, used for combining and converting media files, could be
 used for creating separate versions of a video)
 8. Angular (used as the frontend environment loaded to the user)
 9. Python 3.9 (used as the basis of youtube-dl and used as the language of the APIs)
